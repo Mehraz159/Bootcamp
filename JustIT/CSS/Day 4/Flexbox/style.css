@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    border: 3px solid black;
+    /*height: 80vh;*/
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#cake {
+    width: 150px;
+    height: 180px;
+    /*border: solid black;*/
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.table {
+    border: solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.box1 {
+    background-color: #ff4557;
+}
+
+.box2 {
+    background-color: #1e90ff;
+}
+
+.box3 {
+    background-color: #2ed573;
+
+}
+
+.box4 {
+    background-color: purple;
+
+}
+
+/* Flexbox Code Below: */
+
+.container {
+    display: flex;
+    /*flex-direction: ###;*/
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
+
+.box1 {
+    flex-basis: 200px;
+    flex-grow: 5;
+}
+
+.box2 {
+    flex-basis: 200px;
+    flex-grow: 5;
+}
+
+.box3 {
+    flex-basis: 200px;
+    flex-grow: 5;
+}
+
+.box4 {
+    flex-basis: 200px;
+    flex-grow: 5;
+}

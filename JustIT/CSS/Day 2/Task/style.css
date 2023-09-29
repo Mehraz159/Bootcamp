@@ -1,0 +1,15 @@
+.nav {
+    margin: 0px;
+    background-color: rgb(245, 196, 104);
+    border: 2px solid black;
+
+
+    position: sticky;
+    top: 0px;
+}
+
+.ad {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
