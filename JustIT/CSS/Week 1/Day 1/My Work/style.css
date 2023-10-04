@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(231, 201, 116);
+}
+
+
+h1 {
+    text-align: center;
+    background-color: #af7222;
+    border: 5px solid #684005;
+    color: #684005;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: 'Mooli', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #af7222;
+    border: 5px solid #684005;
+}
+
+h2 {
+    background-color: #af7222;
+    border: 5px solid #684005;
+    font-family: 'Mooli', sans-serif;
+}
+
+.ing {
+    background-color: #af7222;
+    border: 5px solid #684005;
+}
+
+.ing1 {
+    background-color: #af7222;
+    border: 5px solid #684005;
+    margin-right: 835px;
+}
+
+.ing2 {
+    background-color: #af7222;
+}
+
+#cake {
+    border: 5px solid #684005;
+}

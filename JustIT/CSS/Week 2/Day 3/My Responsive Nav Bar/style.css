@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    font-family: 'Mooli', sans-serif;
+    display: flex;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.nav a {
+    color: white;
+    height: auto;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(56, 56, 56);
+    padding: 3px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.nav a:hover {
+    color: rgb(255, 88, 88);
+    border: 1px solid rgb(255, 88, 88);
+    border-radius: 10px;
+}
+
+.nav .home {
+    color: rgb(255, 88, 88);
+}
+
+.nav .home:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: rgb(255, 88, 88);
+}
+
+.body {
+    display: grid;
+    grid-template-rows: 100vh 100vh 100vh;
+}

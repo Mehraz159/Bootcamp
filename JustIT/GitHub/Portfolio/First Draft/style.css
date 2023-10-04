@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vw;
+    color: white;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+
+.my-work {
+    font-size: 3vw;
+    border: 2px solid rgb(255, 88, 88);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.my-work {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.arrow {
+    width: 3vw;
+    position: relative;
+    top: 4px;
+}
+
+.nav {
+    font-family: 'Mooli', sans-serif;
+    display: flex;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        justify-content: center;
+
+    }
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(56, 56, 56);
+    border: 1px solid rgb(56, 56, 56);
+    padding: 3px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.nav a:hover {
+    color: rgb(255, 88, 88);
+    border: 1px solid rgb(255, 88, 88);
+    border-radius: 10px;
+}
+
+.nav .home {
+    color: rgb(255, 88, 88);
+}
+
+.nav .home:hover {
+    color: black;
+    border: 1px solid white;
+    background-color: rgb(255, 88, 88);
+}
+
+.body {
+    display: grid;
+    grid-template-rows: 100vh 100vh 100vh;
+}
